@@ -9,7 +9,7 @@ function gfg(n) {
         else if (n==3) cls="three";
         else if (n==4) cls="four";
         else if (n==5) cls="five";
-        stars[i].className="star" + cls;
+        stars[i].className="star " + cls;
     }
     output.innerText="Rating is:"+n+"/5";
 }
